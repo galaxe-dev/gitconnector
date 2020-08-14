@@ -127,7 +127,7 @@ public class GitHubRestController {
         return gitService.getRepoCommits(owner,repo);
     }
 
-    //List commits
+    //List issues
     @GetMapping(value="/repos/{owner}/{repo}/issues")
     public Object[] getRepoIssues(@PathVariable String owner,@PathVariable String repo){
         return gitService.getRepoIssues(owner,repo);
