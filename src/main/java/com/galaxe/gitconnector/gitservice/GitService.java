@@ -43,6 +43,8 @@ public interface GitService {
 
     public Object[] getRepoCommits(String owner, String repo);
 
+    public Object[] getRepoIssues(String owner,String repo);
+
     public RepositoryDetails getRepoDetails(String owner,String repo);
 
     public RepoInfo getRepoInfo(String owner, String repo);

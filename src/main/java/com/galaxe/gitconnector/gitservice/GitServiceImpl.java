@@ -40,6 +40,11 @@ public class GitServiceImpl implements  GitService{
     }
 
     @Override
+    public Object[] getRepoIssues(String owner, String repo) {
+        return restTemplate.getForObject(REPOS_URL+owner+"/"+repo+"/issues",Object[].class);
+    }
+
+    @Override
     public Object getRepoCommentsById(String owner, String repo, int comment_id) {
         return restTemplate.getForObject(REPOS_URL+owner+"/"+repo+"/comments/"+comment_id,Object.class);
     }
