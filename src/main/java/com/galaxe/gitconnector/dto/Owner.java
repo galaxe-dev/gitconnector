@@ -20,10 +20,7 @@ public class Owner {
     private Object email;
     private Date date;
 
-    /**
-     * No args constructor for use in serialization
-     * 
-     */
+  //testing
     public Owner() {
     }
 
