@@ -22,32 +22,9 @@ public class PullRequestDetails {
     private List<Object> requestedReviewers = null;
     private List<Object> requestedTeams = null;
 
-    /**
-     * No args constructor for use in serialization
-     * 
-     */
     public PullRequestDetails() {
     }
 
-    /**
-     * 
-     * @param requestedReviewers
-     * @param requestedTeams
-     * @param mergedAt
-     * @param assignees
-     * @param title
-     * @param url
-     * @param number
-     * @param createdAt
-     * @param mergeCommitSha
-     * @param id
-     * @param state
-     * @param assignee
-     * @param locked
-     * @param closedAt
-     * @param user
-     * @param updatedAt
-     */
     public PullRequestDetails(String url, Integer id, Integer number, String state, Boolean locked, String title, Owner user, String createdAt, String updatedAt, Object closedAt, Object mergedAt, String mergeCommitSha, Object assignee, List<Object> assignees, List<Object> requestedReviewers, List<Object> requestedTeams) {
         super();
         this.url = url;
