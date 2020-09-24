@@ -16,5 +16,11 @@ public class GitconnectorApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GitconnectorApplication.class, args);
 	}
+	System.out.println("Testing purpose");
+		System.out.println("Pr raised");
+		System.out.println("Done");
+
+	
+
 
 }
