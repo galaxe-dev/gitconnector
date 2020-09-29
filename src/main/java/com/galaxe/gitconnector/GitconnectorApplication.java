@@ -13,7 +13,7 @@ public class GitconnectorApplication {
 		return new RestTemplate();
 	}
 
-	//main method
+
 	public static void main(String[] args) {
 		SpringApplication.run(GitconnectorApplication.class, args);
 	}
