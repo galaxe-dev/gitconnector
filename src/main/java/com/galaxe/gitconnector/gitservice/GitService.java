@@ -2,9 +2,10 @@ package com.galaxe.gitconnector.gitservice;
 
 import com.galaxe.gitconnector.dto.*;
 import org.springframework.web.bind.annotation.PathVariable;
-
+// List of methods for the interface
 public interface GitService {
 
+    
     public Owner getOwner(String owner);
 
     public PullRequestCommits[] getListOfPullNumberCommits(String owner, String repo,int pull_number);
@@ -49,4 +50,5 @@ public interface GitService {
 
     public RepoInfo getRepoInfo(String owner, String repo);
 
+    
 }
