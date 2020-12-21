@@ -10,21 +10,11 @@ public class Commit {
     private String url;
     private Integer commentCount;
 
-    /**
-     * No args constructor for use in serialization
-     * 
-     */
+    //default constructor
     public Commit() {
     }
 
-    /**
-     * 
-     * @param committer
-     * @param author
-     * @param message
-     * @param url
-     * @param commentCount
-     */
+  
     public Commit(Owner author, Owner committer, String message, String url, Integer commentCount) {
         super();
         this.author = author;
